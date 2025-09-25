@@ -2,15 +2,8 @@
 {
     partial class Calculator
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,241 +15,252 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            label8 = new Label();
-            label9 = new Label();
-            label10 = new Label();
-            label11 = new Label();
-            label12 = new Label();
-            label13 = new Label();
-            label14 = new Label();
-            label15 = new Label();
-            label16 = new Label();
-            label17 = new Label();
+            textBoxDisplay = new TextBox();
+            button0 = new Button();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            button7 = new Button();
+            button8 = new Button();
+            button9 = new Button();
+            addButton = new Button();
+            subtractButton = new Button();
+            multiplyButton = new Button();
+            divideButton = new Button();
+            equalsButton = new Button();
+            clearButton = new Button();
+            sqrtButton = new Button();
+            percentButton = new Button();
             SuspendLayout();
             // 
-            // label1
+            // textBoxDisplay
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(-7, -3);
-            label1.Name = "label1";
-            label1.Size = new Size(497, 22);
-            label1.TabIndex = 0;
-            label1.Text = "DO NOT DIVIDE BY 0 OR YOU WILL SUMMON \"HIM\"";
-            label1.Click += label1_Click;
+            textBoxDisplay.Location = new Point(10, 40);
+            textBoxDisplay.Name = "textBoxDisplay";
+            textBoxDisplay.ReadOnly = true;
+            textBoxDisplay.Size = new Size(260, 29);
+            textBoxDisplay.TabIndex = 1;
+            textBoxDisplay.TextAlign = HorizontalAlignment.Right;
             // 
-            // label2
+            // button0
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(29, 412);
-            label2.Name = "label2";
-            label2.Size = new Size(20, 22);
-            label2.TabIndex = 1;
-            label2.Text = "1";
-            label2.Click += label2_Click;
+            button0.Location = new Point(12, 300);
+            button0.Name = "button0";
+            button0.Size = new Size(104, 36);
+            button0.TabIndex = 2;
+            button0.Text = "0";
+            button0.Click += DigitButton_Click;
             // 
-            // label3
+            // button1
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(68, 368);
-            label3.Name = "label3";
-            label3.Size = new Size(20, 22);
-            label3.TabIndex = 2;
-            label3.Text = "8";
+            button1.Location = new Point(10, 254);
+            button1.Name = "button1";
+            button1.Size = new Size(50, 40);
+            button1.TabIndex = 3;
+            button1.Text = "1";
+            button1.Click += DigitButton_Click;
             // 
-            // label4
+            // button2
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(29, 368);
-            label4.Name = "label4";
-            label4.Size = new Size(20, 22);
-            label4.TabIndex = 3;
-            label4.Text = "7";
+            button2.Location = new Point(66, 254);
+            button2.Name = "button2";
+            button2.Size = new Size(50, 40);
+            button2.TabIndex = 4;
+            button2.Text = "2";
+            button2.Click += DigitButton_Click;
             // 
-            // label5
+            // button3
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(68, 346);
-            label5.Name = "label5";
-            label5.Size = new Size(20, 22);
-            label5.TabIndex = 4;
-            label5.Text = "0";
+            button3.Location = new Point(122, 254);
+            button3.Name = "button3";
+            button3.Size = new Size(50, 40);
+            button3.TabIndex = 5;
+            button3.Text = "3";
+            button3.Click += DigitButton_Click;
             // 
-            // label6
+            // button4
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(29, 390);
-            label6.Name = "label6";
-            label6.Size = new Size(20, 22);
-            label6.TabIndex = 5;
-            label6.Text = "4";
+            button4.Location = new Point(12, 208);
+            button4.Name = "button4";
+            button4.Size = new Size(50, 40);
+            button4.TabIndex = 6;
+            button4.Text = "4";
+            button4.Click += DigitButton_Click;
             // 
-            // label7
+            // button5
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(103, 368);
-            label7.Name = "label7";
-            label7.Size = new Size(20, 22);
-            label7.TabIndex = 6;
-            label7.Text = "9";
+            button5.Location = new Point(66, 208);
+            button5.Name = "button5";
+            button5.Size = new Size(50, 40);
+            button5.TabIndex = 7;
+            button5.Text = "5";
+            button5.Click += DigitButton_Click;
             // 
-            // label8
+            // button6
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(103, 412);
-            label8.Name = "label8";
-            label8.Size = new Size(20, 22);
-            label8.TabIndex = 7;
-            label8.Text = "3";
-            label8.Click += label8_Click;
+            button6.Location = new Point(122, 208);
+            button6.Name = "button6";
+            button6.Size = new Size(50, 40);
+            button6.TabIndex = 8;
+            button6.Text = "6";
+            button6.Click += DigitButton_Click;
             // 
-            // label9
+            // button7
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(103, 390);
-            label9.Name = "label9";
-            label9.Size = new Size(20, 22);
-            label9.TabIndex = 8;
-            label9.Text = "6";
+            button7.Location = new Point(12, 162);
+            button7.Name = "button7";
+            button7.Size = new Size(50, 40);
+            button7.TabIndex = 9;
+            button7.Text = "7";
+            button7.Click += DigitButton_Click;
             // 
-            // label10
+            // button8
             // 
-            label10.AutoSize = true;
-            label10.Location = new Point(68, 390);
-            label10.Name = "label10";
-            label10.Size = new Size(20, 22);
-            label10.TabIndex = 9;
-            label10.Text = "5";
+            button8.Location = new Point(66, 162);
+            button8.Name = "button8";
+            button8.Size = new Size(50, 40);
+            button8.TabIndex = 10;
+            button8.Text = "8";
+            button8.Click += DigitButton_Click;
             // 
-            // label11
+            // button9
             // 
-            label11.AutoSize = true;
-            label11.Location = new Point(68, 412);
-            label11.Name = "label11";
-            label11.Size = new Size(20, 22);
-            label11.TabIndex = 10;
-            label11.Text = "2";
+            button9.Location = new Point(122, 162);
+            button9.Name = "button9";
+            button9.Size = new Size(50, 40);
+            button9.TabIndex = 11;
+            button9.Text = "9";
+            button9.Click += DigitButton_Click;
             // 
-            // label12
+            // addButton
             // 
-            label12.AutoSize = true;
-            label12.Location = new Point(151, 412);
-            label12.Name = "label12";
-            label12.Size = new Size(21, 22);
-            label12.TabIndex = 11;
-            label12.Text = "=";
-            label12.Click += label12_Click;
+            addButton.Location = new Point(178, 162);
+            addButton.Name = "addButton";
+            addButton.Size = new Size(50, 40);
+            addButton.TabIndex = 12;
+            addButton.Text = "+";
+            addButton.Click += OperationButton_Click;
             // 
-            // label13
+            // subtractButton
             // 
-            label13.AutoSize = true;
-            label13.Location = new Point(129, 412);
-            label13.Name = "label13";
-            label13.Size = new Size(16, 22);
-            label13.TabIndex = 12;
-            label13.Text = "-";
+            subtractButton.Location = new Point(178, 208);
+            subtractButton.Name = "subtractButton";
+            subtractButton.Size = new Size(50, 40);
+            subtractButton.TabIndex = 13;
+            subtractButton.Text = "-";
+            subtractButton.Click += OperationButton_Click;
             // 
-            // label14
+            // multiplyButton
             // 
-            label14.AutoSize = true;
-            label14.Location = new Point(124, 390);
-            label14.Name = "label14";
-            label14.Size = new Size(21, 22);
-            label14.TabIndex = 13;
-            label14.Text = "+";
+            multiplyButton.Location = new Point(178, 254);
+            multiplyButton.Name = "multiplyButton";
+            multiplyButton.Size = new Size(50, 40);
+            multiplyButton.TabIndex = 14;
+            multiplyButton.Text = "*";
+            multiplyButton.Click += OperationButton_Click;
             // 
-            // label15
+            // divideButton
             // 
-            label15.AutoSize = true;
-            label15.Location = new Point(124, 368);
-            label15.Name = "label15";
-            label15.Size = new Size(20, 22);
-            label15.TabIndex = 14;
-            label15.Text = "*";
+            divideButton.Location = new Point(178, 296);
+            divideButton.Name = "divideButton";
+            divideButton.Size = new Size(50, 40);
+            divideButton.TabIndex = 15;
+            divideButton.Text = "/";
+            divideButton.Click += OperationButton_Click;
             // 
-            // label16
+            // equalsButton
             // 
-            label16.AutoSize = true;
-            label16.Location = new Point(151, 390);
-            label16.Name = "label16";
-            label16.RightToLeft = RightToLeft.Yes;
-            label16.Size = new Size(15, 22);
-            label16.TabIndex = 15;
-            label16.Text = "/";
+            equalsButton.Location = new Point(122, 298);
+            equalsButton.Name = "equalsButton";
+            equalsButton.Size = new Size(50, 40);
+            equalsButton.TabIndex = 16;
+            equalsButton.Text = "=";
+            equalsButton.Click += EqualsButton_Click;
             // 
-            // label17
+            // clearButton
             // 
-            label17.AutoSize = true;
-            label17.Location = new Point(303, 73);
-            label17.Name = "label17";
-            label17.Size = new Size(142, 22);
-            label17.TabIndex = 16;
-            label17.Text = "Placeholder text";
+            clearButton.Location = new Point(178, 342);
+            clearButton.Name = "clearButton";
+            clearButton.Size = new Size(50, 40);
+            clearButton.TabIndex = 17;
+            clearButton.Text = "C";
+            clearButton.Click += ClearButton_Click;
+            // 
+            // sqrtButton
+            // 
+            sqrtButton.Location = new Point(12, 342);
+            sqrtButton.Name = "sqrtButton";
+            sqrtButton.Size = new Size(50, 40);
+            sqrtButton.TabIndex = 18;
+            sqrtButton.Text = "√";
+            sqrtButton.Click += SqrtButton_Click;
+            // 
+            // percentButton
+            // 
+            percentButton.Location = new Point(68, 342);
+            percentButton.Name = "percentButton";
+            percentButton.Size = new Size(50, 40);
+            percentButton.TabIndex = 19;
+            percentButton.Text = "%";
+            percentButton.Click += PercentButton_Click;
             // 
             // Calculator
             // 
             AutoScaleDimensions = new SizeF(96F, 96F);
             AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = SystemColors.ControlLightLight;
-            ClientSize = new Size(484, 461);
-            Controls.Add(label17);
-            Controls.Add(label16);
-            Controls.Add(label15);
-            Controls.Add(label14);
-            Controls.Add(label13);
-            Controls.Add(label12);
-            Controls.Add(label11);
-            Controls.Add(label10);
-            Controls.Add(label9);
-            Controls.Add(label8);
-            Controls.Add(label7);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            ClientSize = new Size(288, 397);
+            Controls.Add(textBoxDisplay);
+            Controls.Add(button0);
+            Controls.Add(button1);
+            Controls.Add(button2);
+            Controls.Add(button3);
+            Controls.Add(button4);
+            Controls.Add(button5);
+            Controls.Add(button6);
+            Controls.Add(button7);
+            Controls.Add(button8);
+            Controls.Add(button9);
+            Controls.Add(addButton);
+            Controls.Add(subtractButton);
+            Controls.Add(multiplyButton);
+            Controls.Add(divideButton);
+            Controls.Add(equalsButton);
+            Controls.Add(clearButton);
+            Controls.Add(sqrtButton);
+            Controls.Add(percentButton);
             Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Name = "Calculator";
-            Text = "Suspicious Calculator";
-            TransparencyKey = Color.Cyan;
+            Text = "Simple Calculator";
             Load += Calculator_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private Label label7;
-        private Label label8;
-        private Label label9;
-        private Label label10;
-        private Label label11;
-        private Label label12;
-        private Label label13;
-        private Label label14;
-        private Label label15;
-        private Label label16;
-        private Label label17;
+        private TextBox textBoxDisplay;
+        private Button button0;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
+        private Button button5;
+        private Button button6;
+        private Button button7;
+        private Button button8;
+        private Button button9;
+        private Button addButton;
+        private Button subtractButton;
+        private Button multiplyButton;
+        private Button divideButton;
+        private Button equalsButton;
+        private Button clearButton;
+        private Button sqrtButton;
+        private Button percentButton;
     }
 }
